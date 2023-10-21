@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+    font-family: Comfortaa;
+}
+
+/* main body styling */
+body{
+    background-color: rgb(211, 217, 226);
+}
+.main-page-header{
+    padding: 10px 0px;
+}
+.container{
+    margin: 10px auto;
+}
+/*company name*/
+.main-page-header .company-name{
+    font-weight: bold;
+    font-size: large;
+    color: white;
+}
+/*navigation*/
+.navigation{
+    margin-left: 20px;
+}
+.navigation li{
+    display: inline-block;
+    list-style-type: none;
+    margin: 0px 15px;
+}
+.navigation li a{
+    text-decoration: none;
+    color: white;
+}
+/*display name*/
+.display-name {
+ font-weight: bold;
+}
+
+/*transact button*/
+#Transact-btn{
+    background-color: #ffb114;
+    border: 1px solid #543800;
+    border: none;
+}
+/*add new account btn*/
+#add-new-account-btn{
+    background-color: #ff4e00;
+    border: 1px solid #8b2b00;
+    color: white;
+    border: none;
+}
+
+/*offcanvas*/
+.offcanvas{
+    background-image: url(../images/try.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.offcanvas h5{
+    font-size: x-large;
+}
+.pay-btn{
+    color: white;
+    background-color: #ff4e00;
+    border: 1px solid #8b2b00;
+}
+
+/*payment card*/
+.payment-card{
+    display: none;
+}
+
+/*transfer card*/
+.transfer-card{
+    display: none;
+}
+
+/*deposit card*/
+.deposit-card{
+    display: none;
+}
+
+/*withdraw card*/
+.withdraw-card{
+    display: none;
+}
+
